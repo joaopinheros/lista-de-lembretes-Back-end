@@ -1,0 +1,6 @@
+CREATE TABLE lembrete (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    date DATE NOT NULL,
+    description VARCHAR(255),
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
